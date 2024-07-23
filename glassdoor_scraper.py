@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import pandas as pd
 
-# Replace with your path to chromedriver.exe
+
 path = "C:/Users/MUSA-PC/Desktop/data_project/chromedriver-win64/chromedriver.exe"
 service = Service(executable_path=path)
 driver = webdriver.Chrome(service=service)
